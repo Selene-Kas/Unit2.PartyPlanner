@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+}
+section {
+    border: 1px solid gray;
+    background-color: rgb(221, 221, 221);
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    width: 40%;
+}
+button {
+    background-color: rgb(201, 215, 220);
+}
