@@ -1,4 +1,4 @@
-const BASE_URL = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/$%7BCOHORT%7D/events';
+const BASE_URL = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/2308-acc-et-web-pt-a/events';
 
 const mainEl = document.querySelector('main');
 const formEl = document.querySelector('form');
@@ -19,10 +19,6 @@ async function getEvents() {
 }
 /** Render Events */
 function render(events) {
-    /*if (!state.events.length) {
-        e.innerHTML = "<li>No events.</li>";
-        return;
-      }*/
     const template = events.map(event => {
          return (
              `<section>
